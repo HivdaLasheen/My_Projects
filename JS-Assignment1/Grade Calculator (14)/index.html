@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Grade Calculator</h1>
+        <label for="physics">Enter Marks for Physics:</label>
+        <input type="number" id="physics" placeholder="Enter marks for Physics">
+        <label for="chemistry">Enter Marks for Chemistry:</label>
+        <input type="number" id="chemistry" placeholder="Enter marks for Chemistry">
+        <label for="biology">Enter Marks for Biology:</label>
+        <input type="number" id="biology" placeholder="Enter marks for Biology">
+        <label for="mathematics">Enter Marks for Mathematics:</label>
+        <input type="number" id="mathematics" placeholder="Enter marks for Mathematics">
+        <label for="computer">Enter Marks for Computer:</label>
+        <input type="number" id="computer" placeholder="Enter marks for Computer">
+        <button onclick="calculateGrade()">Calculate Grade</button>
+        <div id="result"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
