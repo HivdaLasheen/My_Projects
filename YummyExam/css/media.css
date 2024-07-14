@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  .item {
+    max-height: fit-content;
+  }
+  .input-container {
+    padding-inline: 3.125rem;
+  }
+}
